@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1000px;
+  height: 100vh;
+  margin: 10px auto;
+  background-color: antiquewhite;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  width: 300px;
+  height: 60px;
+
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  text-transform: capitalize;
+  font-family: serif;
+  font-size: 20px;
+  align-items: center;
+}
+.mainitems {
+  display: flex;
+
+  text-transform: capitalize;
+  font-family: inherit;
+  margin-top: 20px;
+}
+.mainitems input {
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  text-transform: capitalize;
+}
+.mainitems button {
+  margin-left: 10px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-transform: capitalize;
+}
+
+/* .ullist{
+    width: 300px;
+    
+  background-color: yellow;
+    display: flex;
+    position: relative;
+   text-align: center;
+   align-items: center;
+    margin-top: 10px;
+
+    
+    
+}
+.ullist li{
+    background-color: violet;
+    display: flex;
+text-transform: capitalize;
+list-style: none;
+    
+   
+} */
+
+ul {
+  width: 300px;
+
+}
+ul li {
+  list-style: none;
+  display: flex;
+  text-transform: capitalize;
+  padding: 10px 10px 10px 20px;
+  background-color: violet;
+  margin-top: 5px;
+  line-height: 30px;
+  font-size: 20px;
+  justify-content: space-evenly;
+  border-radius: 10px;
+   animation: first 1s ease-in-out ;
+  
+  
+}
+
+
+
+.fa-trash,.fa-edit {
+  align-items: center;
+  display: flex;
+  text-align: center;
+  
+  justify-content: center;
+
+  font-size: 20px;
+  position: relative;
+
+  width: 30px;
+
+  line-height: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.fa-trash{
+  margin-left: auto;
+  margin-right: 15px;
+
+}
+.fa-address-book{
+  margin-right: 10px;
+  font-size: 30px;
+  color: red;
+
+}
+
+
+.animationside{
+  transform: rotateX(60deg) translateY(5px);
+  transition: .3s;
+  color: white;
+  background-color: chartreuse;
+}
+
+@keyframes first{
+  from{
+    opacity: 0;
+    color: tomato;
+    background-color: cyan;
+
+  }
+  to{
+    opacity: 1;
+    color: black;
+    background-color: cyan;
+
+  }
+}
